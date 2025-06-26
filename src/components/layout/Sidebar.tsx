@@ -8,6 +8,7 @@ import {
   SheetTrigger,
 } from '@/components/ui/sheet'
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 const navItems = [
   { label: 'Dashboard', icon: Home, href: '/' },
@@ -18,10 +19,11 @@ const navItems = [
 
 function Sidebar() {
   const [open, setOpen] = useState(false)
+  const { t } = useTranslation()
 
   const SidebarContent = (
     <div className="h-full bg-white border-r border-gray-200 shadow-sm w-64">
-      <div className="px-4 py-5 text-xl font-bold">My Dashboard</div>
+      <div className="px-4 py-5 text-xl font-bold">{t("SIDEBAR.My Dashboard")}</div>
       <Separator />
       <ScrollArea className="h-[calc(100vh-80px)] p-2">
         <nav className="space-y-1">
@@ -32,9 +34,13 @@ function Sidebar() {
               className="w-full justify-start gap-3 text-gray-700 hover:bg-orange-100 hover:text-orange-600"
               asChild
             >
-              <a href={item.href} className="flex items-center w-full">
+              <a
+                key={item.href}
+                href={item.href}
+                className="flex items-center justify-start gap-3 px-3 py-2 rounded-lg text-gray-700 hover:bg-orange-100 hover:text-orange-600 transition rtl:flex-row-reverse"
+              >
                 <item.icon className="h-5 w-5" />
-                <span>{item.label}</span>
+                <span className="text-sm font-medium">{t(`SIDEBAR.${item.label}`)}</span>
               </a>
             </Button>
           ))}

@@ -1,0 +1,24 @@
+{
+    "SIDEBAR": {
+        "My Dashboard": "My Dashboard",
+        "Dashboard": "Dashboard",
+        "Users": "Users",
+        "Messages": "Messages",
+        "Settings": "Settings"
+    },
+    "DROPDOWN": {
+        "My Account": "My Account",
+        "Profile": "Profile",
+        "Settings": "Settings",
+        "Logout": "Logout"
+    },
+    "CONTENT": {
+        "Welcome": "Welcome back! Here's what's happening today.",
+        "Export": "Export",
+        "NewReport": "New Report",
+        "Stats": "Stats",
+        "StatsDescription": "Overview of your latest metrics.",
+        "RecentActivity": "Recent Activity",
+        "RecentActivityDescription": "Here's what users have been doing."
+    }
+}

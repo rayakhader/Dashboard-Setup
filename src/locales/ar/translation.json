@@ -1,0 +1,24 @@
+{
+    "SIDEBAR": {
+        "My Dashboard": "صفحتي",
+        "Dashboard": "الصفحة الرئيسية",
+        "Users": "المستخدمين",
+        "Messages": "الرسائل",
+        "Settings": "الاعدادات"
+    },
+    "DROPDOWN": {
+        "My Account": "حسابي",
+        "Profile": "الملف الشخصي",
+        "Settings": "الاعدادات",
+        "Logout": "تسجيل خروج"
+    },
+    "CONTENT": {
+        "Welcome": "مرحبًا بعودتك! إليك ما يحدث اليوم.",
+        "Export": "تصدير",
+        "NewReport": "تقرير جديد",
+        "Stats": "الإحصائيات",
+        "StatsDescription": "نظرة عامة على أحدث المقاييس الخاصة بك.",
+        "RecentActivity": "النشاط الأخير",
+        "RecentActivityDescription": "إليك ما كان يفعله المستخدمون."
+    }
+}
