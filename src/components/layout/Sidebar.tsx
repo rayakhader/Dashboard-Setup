@@ -60,7 +60,10 @@ function Sidebar() {
           </SheetTrigger>
           <SheetContent
             side={i18n.language === 'en' ? 'left' : 'right'}
-            className="p-0 w-64"
+            className={`p-0 w-64 [&>button]:top-4 ${i18n.language === 'ar'
+                ? '[&>button]:left-4 [&>button]:right-auto'
+                : '[&>button]:right-4 [&>button]:left-auto'
+              }`}
           >
             {SidebarContent}
           </SheetContent>
