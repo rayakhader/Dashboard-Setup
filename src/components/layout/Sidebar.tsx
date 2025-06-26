@@ -19,7 +19,7 @@ const navItems = [
 
 function Sidebar() {
   const [open, setOpen] = useState(false)
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
 
   const SidebarContent = (
     <div className="h-full bg-white border-r border-gray-200 shadow-sm w-64">
@@ -58,7 +58,10 @@ function Sidebar() {
               <Menu className="h-6 w-6" />
             </Button>
           </SheetTrigger>
-          <SheetContent side="left" className="p-0 w-64">
+          <SheetContent
+            side={i18n.language === 'en' ? 'left' : 'right'}
+            className="p-0 w-64"
+          >
             {SidebarContent}
           </SheetContent>
         </Sheet>
