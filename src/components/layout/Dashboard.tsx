@@ -8,9 +8,7 @@ function Dashboard() {
       <Sidebar />
       <div className="flex flex-col flex-1">
         <Header />
-        <main className="p-4">
-          <Content />
-        </main>
+        <Content />
       </div>
     </div>
   )
