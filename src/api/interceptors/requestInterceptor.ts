@@ -1,5 +1,5 @@
 import type { AxiosInstance } from 'axios';
-import { getAuthToken, getUserLocale } from '../authHelpers';
+import { getAuthToken, getUserLocale } from '../../lib/utils';
 
 export default function setupRequestInterceptor(axiosInstance: AxiosInstance) {
   axiosInstance.interceptors.request.use(

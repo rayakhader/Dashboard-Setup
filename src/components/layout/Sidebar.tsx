@@ -11,7 +11,7 @@ import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
 const navItems = [
-  { label: 'Dashboard', icon: Home, href: '/' },
+  { label: 'Dashboard', icon: Home, href: '/dashboard' },
   { label: 'Users', icon: Users, href: '/users' },
   { label: 'Messages', icon: MessageCircle, href: '/messages' },
   { label: 'Settings', icon: Settings, href: '/settings' },

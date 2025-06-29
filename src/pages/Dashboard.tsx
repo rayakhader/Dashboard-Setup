@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 import { useTranslation } from "react-i18next"
 
-function Content() {
+function Dashboard() {
   const {t} = useTranslation()
   return (
     <main className="p-6 space-y-6 bg-muted/50">
@@ -34,4 +34,4 @@ function Content() {
   )
 }
 
-export default Content
+export default Dashboard

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import Message from "./Message";
+import Message from "@/components/Message";
 
 function Login() {
     const [username, setUsername] = useState("");
@@ -29,7 +29,7 @@ function Login() {
 
             if (isValid) {
                 setTimeout(() => {
-                    navigate("/");
+                    navigate("/dashboard");
                 }, 1500);
             }
         }, 1000);

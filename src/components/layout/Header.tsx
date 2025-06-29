@@ -7,7 +7,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import LanguageSwitcher from "./LanguageSwitcher"
+import LanguageSwitcher from "../LanguageSwitcher"
 import { useTranslation } from "react-i18next"
 
 function Header() {
