@@ -23,7 +23,7 @@ function Sidebar() {
 
   const SidebarContent = (
     <div className="h-full bg-white border-r border-gray-200 shadow-sm w-64">
-      <div className="px-4 py-5 text-xl font-bold">{t("SIDEBAR.My Dashboard")}</div>
+      <div className="px-4 py-5 text-xl font-bold">{t("SIDEBAR.MyDashboard")}</div>
       <Separator />
       <ScrollArea className="h-[calc(100vh-80px)] p-2">
         <nav className="space-y-1">

@@ -33,7 +33,7 @@ function Header() {
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end" className=" bg-white">
-            <DropdownMenuLabel>{t("DROPDOWN.My Account")}</DropdownMenuLabel>
+            <DropdownMenuLabel>{t("DROPDOWN.MyAccount")}</DropdownMenuLabel>
             <DropdownMenuItem>{t("DROPDOWN.Profile")}</DropdownMenuItem>
             <DropdownMenuItem>{t("DROPDOWN.Settings")}</DropdownMenuItem>
             <DropdownMenuItem>{t("DROPDOWN.Logout")}</DropdownMenuItem>

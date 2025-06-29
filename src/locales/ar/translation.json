@@ -1,13 +1,13 @@
 {
     "SIDEBAR": {
-        "My Dashboard": "صفحتي",
+        "MyDashboard": "صفحتي",
         "Dashboard": "الصفحة الرئيسية",
         "Users": "المستخدمين",
         "Messages": "الرسائل",
         "Settings": "الاعدادات"
     },
     "DROPDOWN": {
-        "My Account": "حسابي",
+        "MyAccount": "حسابي",
         "Profile": "الملف الشخصي",
         "Settings": "الاعدادات",
         "Logout": "تسجيل خروج"

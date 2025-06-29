@@ -1,13 +1,13 @@
 {
     "SIDEBAR": {
-        "My Dashboard": "My Dashboard",
+        "MyDashboard": "My Dashboard",
         "Dashboard": "Dashboard",
         "Users": "Users",
         "Messages": "Messages",
         "Settings": "Settings"
     },
     "DROPDOWN": {
-        "My Account": "My Account",
+        "MyAccount": "My Account",
         "Profile": "Profile",
         "Settings": "Settings",
         "Logout": "Logout"
