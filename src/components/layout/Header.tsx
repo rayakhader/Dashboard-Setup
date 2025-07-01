@@ -9,15 +9,17 @@ import {
 } from "@/components/ui/dropdown-menu"
 import LanguageSwitcher from "../LanguageSwitcher"
 import { useTranslation } from "react-i18next"
+import ToggleTheme from "../ToggleTheme"
 
 function Header() {
-  const {t} = useTranslation()
+  const { t } = useTranslation()
 
   return (
     <header className="w-full px-4 py-2 bg-white border-b flex items-center justify-between shadow-sm">
       <h1 className="text-lg font-semibold">{t("SIDEBAR.Dashboard")}</h1>
 
       <div className="flex items-center gap-4">
+        <ToggleTheme />
         <LanguageSwitcher />
 
         <Button variant="ghost" size="icon" className="relative">

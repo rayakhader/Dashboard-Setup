@@ -62,9 +62,8 @@ function Login() {
     useEffect(() => {
         if (password) validatePassword(password);
     }, [password]);
-
     return (
-        <main className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 px-4">
+        <main className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 px-4 ">
             <Card className="w-full max-w-md shadow-xl border border-gray-200 rounded-lg animate-fade-in">
                 <CardHeader className="text-center">
                     <CardTitle className="text-2xl font-semibold">Login</CardTitle>
